@@ -1,0 +1,544 @@
+/* ---------------------- TITLE PAGE ---------------------- */
+
+#wrapper {
+    width: 1366px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-image: url("images/Title.svg");
+    text-align: center;
+}
+
+#enter {
+    position: relative;
+    top: 650px;
+    background-color: rgb(180, 1, 16);
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    border-color: rgb(180, 1, 16);
+    color: rgb(255, 246, 223);
+}
+
+#enter:hover {
+    background-color: rgb(47, 164, 147);
+    border-color: rgb(47, 164, 147);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(255, 246, 223);
+}
+
+/* ---------------------- PAGES 1 AND 2 ---------------------- */
+
+#instructions {
+    font-family: sans-serif;
+    font-size: 14pt;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 90px;
+    z-index: 100;
+    display: none;
+}
+
+#question {
+    z-index: 100;
+    color: rgb(255, 246, 223);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20pt;
+    border-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+#question:hover {
+    font-size: 25pt;
+}
+
+#wrapper2 {
+    width: 1366px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-image: url("images/Background.svg");
+    text-align: center;
+    overflow: hidden;
+}
+
+#sun {
+    width: 590px;
+    position: absolute;
+    top: 75px;
+    left: 690px;
+    transition: left 2s;
+}
+
+#mountains {
+    width: 2732px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: left 2s;
+}
+
+#storm {
+    width: 1366px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.dusts {
+    position: absolute;
+    left: -50px;
+}
+
+#ground {
+    width: 2732px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: left 2s;
+}
+
+#cactus1 {
+    width: 143px;
+    position: absolute;
+    bottom: 35px;
+    left: 90px;
+    transition: left 2s;
+    animation: wiggleCactus1 2s;
+    animation-iteration-count: infinite;
+}
+
+#cactus1:hover {
+    width: 153px;
+}
+
+#skeleton1 {
+    width: 196px;
+    position: absolute;
+    bottom: 35px;
+    left: 400px;
+    transition: left 2s;
+    animation: wiggleSkeleton1 2s;
+    animation-iteration-count: infinite;
+}
+
+#skeleton1:hover {
+    width: 206px;
+}
+
+#skeleton2 {
+    width: 175px;
+    position: absolute;
+    bottom: 35px;
+    left: 720px;
+    transition: left 2s;
+    animation: wiggleSkeleton2 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#skeleton2:hover {
+    width: 185px;
+}
+
+#tumbleweed {
+    width: 109px;
+    position: absolute;
+    bottom: 35px;
+    right: 150px;
+    transition: right 2s;
+    animation: wiggleTumbleweed 3s;
+    animation-iteration-count: infinite;
+}
+
+#tumbleweed:hover {
+    width: 119px;
+}
+
+#next {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    color: rgb(255, 246, 223);
+    font-size: 35pt;
+    font-weight: bold;
+    z-index: 999;
+}
+
+#next:hover {
+    font-size: 40pt;
+}
+
+#home {
+    position: relative;
+    top: 30px;
+    background-color: rgb(47, 164, 147);
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    border-color: rgb(47, 164, 147);
+    color: rgb(255, 246, 223);
+    z-index: 999;
+}
+
+#home:hover {
+    background-color: rgb(180, 1, 16);
+}
+
+#prev {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    color: rgb(255, 246, 223);
+    font-size: 35pt;
+    font-weight: bold;
+    z-index: 999;
+}
+
+#prev:hover {
+    font-size: 40pt;
+}
+
+#cactus2 {
+    width: 126px;
+    position: absolute;
+    bottom: 30px;
+    left: 1456px;
+    transition: left 2s;
+    animation: wiggleCactus2 2s;
+    animation-iteration-count: infinite;
+}
+
+#cactus2:hover {
+    width: 136px;
+}
+
+#skeleton3 {
+    width: 199px;
+    position: absolute;
+    bottom: 30px;
+    left: 1736px;
+    transition: left 2s;
+    animation: wiggleSkeleton3 2s;
+    animation-iteration-count: infinite;
+}
+
+#skeleton3:hover {
+    width: 209px;
+}
+
+#house {
+    width: 656px;
+    position: absolute;
+    bottom: 35px;
+    right: -1366px;
+    transition: right 2s;
+}
+
+#house:hover {
+    width: 660px;
+}
+
+.boxes {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    height: auto;
+    font-size: 16pt;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 40px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+#fact1 {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    display: none;
+}
+
+#fact2 {
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    display: none;
+}
+
+#fact3 {
+    position: absolute;
+    top: 110px;
+    left: 520px;
+    display: none;
+}
+
+#fact4 {
+    position: absolute;
+    top: 110px;
+    left: 730px;
+    display: none;
+}
+
+#fact5 {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    display: none;
+}
+
+#fact6 {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    display: none;
+}
+
+@keyframes wiggleCactus1 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -4px);}
+    100% {transform: translate(0px, 0px);}  
+}
+
+@keyframes wiggleSkeleton1 {
+    0% {transform: rotate(3deg);}
+    50% {transform: rotate(-3deg);}
+    100% {transform: rotate(3deg);}   
+}
+
+@keyframes wiggleSkeleton2 {
+    0% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    100% {transform: rotate(-3deg);}
+}
+
+@keyframes wiggleTumbleweed {
+    0% {transform: translate(0px, 0px) rotate(0deg);}
+    25% {transform: translate(3px, 0px) rotate(90deg);}
+    50% {transform: translate(0px, 0px) rotate(180deg);}
+    75% {transform: translate(-3px, 0px) rotate(270deg);}
+    100% {transform: translate(0px, 0px) rotate(360deg);}
+}
+
+@keyframes wiggleCactus2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -4px);}
+    100% {transform: translate(0px, 0px);}  
+}
+
+@keyframes wiggleSkeleton3 {
+    0% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    100% {transform: rotate(-3deg);}
+}
+
+/* ---------------------- PAGE 3 ---------------------- */
+
+#wrapper3 {
+    width: 1366px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-image: url("images/Setting.svg");
+    text-align: center;
+    overflow: hidden;
+}
+
+#prev2 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    color: rgb(255, 246, 223);
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+#prev2:hover {
+    font-size: 40pt;
+}
+
+#cross {
+    width: 107px;
+    position: absolute;
+    top: 240px;
+    left: 635px;
+    animation: wiggleCross 2s;
+    animation-iteration-count: infinite;
+}
+
+#cross:hover {
+    width: 117px;
+}
+
+#candles {
+    width: 224px;
+    position: absolute;
+    top: 490px;
+    left: 573px;
+}
+
+#skull1 {
+    width: 134px;
+    position: absolute;
+    top: 305px;
+    left: 425px;
+    animation: wiggleSkull1 2s;
+    animation-iteration-count: infinite;
+}
+
+#skull1:hover {
+    width: 144px;
+}
+
+#skull2 {
+    width: 134px;
+    position: absolute;
+    top: 305px;
+    left: 820px;
+    animation: wiggleSkull2 2s;
+    animation-iteration-count: infinite;
+}
+
+#skull2:hover {
+    width: 144px;
+}
+
+#smoke {
+    width: 143px;
+    position: absolute;
+    top: 170px;
+    left: 1050px;
+}
+
+#maracas {
+    width: 244px;
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    animation: wiggleMaracas 2s;
+    animation-iteration-count: infinite;
+}
+
+#maracas:hover {
+    transform: rotate(5deg);
+}
+
+#sombrero {
+    width: 298px;
+    position: absolute;
+    top: 540px;
+    left: 140px;
+}
+
+#bread {
+    width: 377px;
+    position: absolute;
+    top: 620px;
+    left: 900px;
+    animation: wiggleBread 2s;
+    animation-iteration-count: infinite;
+}
+
+#bread:hover {
+    width: 387px;
+}
+
+#fact7 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: none;
+}
+
+#fact8 {
+    position: absolute;
+    bottom: 100px;
+    left: 700px;
+    display: none;
+}
+
+#fact9 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    display: none;
+}
+
+#fact10 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    display: none;
+}
+
+@keyframes wiggleCross {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -5px);}
+    100% {transform: translate(0px, 0px);}  
+}
+
+@keyframes wiggleSkull1 {
+    0% {transform: rotate(-3deg);}
+    50% {transform: rotate(3deg);}
+    100% {transform: rotate(-3deg);}
+}
+
+@keyframes wiggleSkull2 {
+    0% {transform: rotate(3deg);}
+    50% {transform: rotate(-3deg);}
+    100% {transform: rotate(3deg);}
+}
+
+@keyframes wiggleMaracas {
+    0% {width 244px;}
+    50% {width: 234px;}
+    100% {width: 244px;}  
+}
+
+@keyframes wiggleBread {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -5px);}
+    100% {transform: translate(0px, 0px);}  
+}
